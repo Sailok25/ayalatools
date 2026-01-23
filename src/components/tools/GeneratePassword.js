@@ -60,10 +60,10 @@ export default function PasswordTool() {
           <div className="text-2xl font-mono bg-white p-4 rounded-lg border mb-4 min-h-[60px]">
             {password || 'Tu contraseña aparecerá aquí'}
           </div>
-          <div className="flex gap-3 justify-center">
+          <div className="flex gap-4 justify-center">
             <button
               onClick={generatePassword}
-              className="px-6 py-3 bg-green-600 text-white rounded-lg font-semibold hover:bg-green-700"
+              className="px-6 py-3 bg-green-100 text-black rounded-lg font-semibold hover:bg-green-200"
             >
               🎲 Generar Contraseña
             </button>
@@ -159,11 +159,7 @@ export default function PasswordTool() {
             </li>
             <li className="flex items-start">
               <span className="text-green-500 mr-2">✓</span>
-              <span>Usa contraseñas diferentes para cada servicio</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-green-500 mr-2">✓</span>
-              <span>Considera usar un gestor de contraseñas</span>
+              <span>Usa contraseñas diferentes para cada lugar</span>
             </li>
             <li className="flex items-start">
               <span className="text-green-500 mr-2">✓</span>
